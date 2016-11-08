@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="text" class="Practica.Text" scope="prototype"></bean>
+    <bean id="punt" class="Practica.Punt" scope="prototype"></bean>
+    <bean id="linia" class="Practica.Linia" scope="prototype"></bean>
+    <bean id="cercle" class="Practica.Cercle" scope="prototype"></bean>
+    <bean id="cuadrat" class="Practica.Cuadrat" scope="prototype"></bean>
+    <bean id="rectangle" class="Practica.Rectangle" scope="prototype"></bean>
+    <bean id="poligon" class="Practica.Poligon" scope="prototype"></bean>
+
+</beans>
